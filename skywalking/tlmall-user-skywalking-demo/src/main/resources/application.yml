@@ -1,0 +1,10 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: tlmall-user
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tlmall_user?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false
+    username: root
+    password: root
